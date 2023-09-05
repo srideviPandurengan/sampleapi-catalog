@@ -1,0 +1,14 @@
+#%Catalog Descriptor 1.0
+projects:
+  - main: checkin-api-oas.json
+    assetId: check-in-papi
+    version: 1.1.0
+    apiVersion: v1
+    contact:
+      name: 'Sarah Connor'
+      email: 'sarah.connor@skynet.net'
+    tags:
+      - anyairline
+      - training
+    documentation:
+      Home: home.md
