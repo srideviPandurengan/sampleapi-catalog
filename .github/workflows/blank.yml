@@ -28,6 +28,6 @@ jobs:
         env: 
           ANYPOINT_CLIENTID: ${{ secrets.ANYPOINT_CLIENTID }} 
           ANYPOINT_CLIENTSECRET: ${{ secrets.ANYPOINT_CLIENTSECRET }}
-          ANYPOINT_ORG_ID: ${{ secrets.ANYPOINT_ORGID }}
+          ANYPOINT_ORG_ID: ${{ secrets.ANYPOINT_ORG_ID }}
         run: |
           api-catalog publish-asset --organization="$ANYPOINT_ORG_ID" --client_id="$ANYPOINT_CLIENTID" --client_secret="$ANYPOINT_CLIENTSECRET"
